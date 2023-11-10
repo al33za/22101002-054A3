@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aleeza Fatima's CV</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header, footer {
+    background-color:deeppink;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  footer {
+    position: relative;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .left-column, .right-column {
+    padding: 10px;
+    width: 25%;
+    background-color: lightpink;
+  }
+  .middle-column {
+    width: 50%;
+    padding: 10px;
+  }
+  iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+  }
+  img {
+    float: right;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  .whatsapp-icon {
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .left-column, .right-column, .middle-column {
+      width: 100%;
+    }
+    .icons img,
+  .whatsapp-icon img {
+    width: 10px;
+    height: 10px;
+  }
+    img {
+      float: none;
+      display: block;
+      margin: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Aleeza Fatima</h1>
+</header>
+
+<div class="container">
+  <div class="left-column">
+    <h2>Professional Skills</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>Android Application Development</li>
+      <li>MS Office</li>
+      <li>Mathematics</li>
+    </ul>
+    <audio controls>
+            <source src="your-audio-file.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+  </div>
+
+  <div class="middle-column">
+    <!-- Placeholder for profile picture -->
+    <!-- <img src="profile-pic.jpg" alt="Aleeza Fatima"> -->
+    <img src="2.jpeg" alt="Aleeza Fatima">
+
+    <h2>Personal Information</h2>
+    <table border="1">
+        <tr>
+            <td>Full Name:</td>
+            <td>Aleeza Fatima</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>aleezafatimafatima58@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Educational History</h2>
+   <table border="1">
+        <tr>
+            <td>Institution</td>
+            <td>Degree</td>
+            <td>Years</td>
+        </tr>
+        <tr>
+            <td>University Of Sialkot</td>
+            <td>BS (Computer Science)</td>
+            <td>2020-In Progress</td>
+        </tr>
+        <tr>
+            <td>Image College Daska</td>
+            <td>ICS (Physics) </td>
+            <td>2017-2019</td>
+        </tr>
+        <tr>
+            <td>Govt. Girls High School, Mandranwala</td>
+            <td>Matric (Science) </td>
+            <td>2015-2017</td>
+        </tr>
+    </table>
+
+    <h2>Life Ambition</h2>
+    <p>My life ambition is to build a successful business that not only provides for my family but also creates opportunities for others. I aim to establish a legacy of entrepreneurship, generating wealth and stability, ensuring a better future for my loved ones while contributing positively to the community and economy.</p>
+
+
+    <h2>What I Did for My Country</h2>
+    <p>As a Computer Science student, I've worked on projects that solve practical issues. I've also taught coding to underserved communities and contributed to research that could benefit different fields in my country.</p>
+
+
+    <h2>What I Want to Do for My Country</h2>
+    <p>I aspire to leverage my skills in technology to innovate solutions that address societal challenges. Additionally, I aim to mentor and educate the next generation in technology, fostering a more digitally literate and empowered society, ultimately contributing to the progress and development of my country.</p>
+
+    
+    <h2>Youtube</h2>
+    <iframe width="560" height="315" src="https://youtu.be/QkwHbrKKXjE" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Maps</h2>
+    
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?q=latitude,longitude&key=API_KEY" allowfullscreen></iframe>
+
+  </div>
+
+  <div class="right-column">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <h3>ADP FYP</h3>
+            <p>RFID Based Attendance system which takes attendance by scanning your RFID card.</p>
+        </li>
+        <li>
+            <h3>School Management System</h3>
+            <p>It is a Desktop application using C# and SQL database, which saves all records of students like Name, Father Name, Class, Contact Number, and Student ID.</p>
+        </li>
+    </ul>
+    <h2>Video</h2>
+    <video controls width="300">
+            <source src="your-video-file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+    </video>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-content">
+    <span>Aleeza Fatima</span>
+    <a href="mailto:aleezafatimafatima58@gmail.com">aleezafatimafatima58@gmail.com</a>
+    <div class="icons">
+      <a href="http://facebook.com"><img src="fb.png" alt="Facebook"></a>
+      <a href="http://instagram.com"><img src="insta.png" alt="Instagram"></a>
+      <a href="http://linkedin.com"><img src="link.png" alt="LinkedIn"></a>
+      <a href="https://github.com/al33za"><img src="github.png" alt="GitHub"></a>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923102172882" class="whatsapp-icon">
+  <img src="whatsapp.png" alt="WhatsApp" >
+</a>
+
+</body>
+</html>
